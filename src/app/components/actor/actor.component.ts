@@ -8,4 +8,9 @@ import { Component } from '@angular/core';
 
 export class Actor {
 
+  public name: string;
+
+  constructor() {
+    this.name = 'Daniel';    
+  }
 }
